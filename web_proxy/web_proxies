@@ -1,0 +1,9 @@
+# Web Proxy
+
+Today, most modern web and mobile applications work by continuously connecting to back-end servers to send and receive data and then processing this data on the user's device, like their web browsers or mobile phones. With most applications heavily relying on back-end servers to process data, testing and securing the back-end servers is quickly becoming more important.
+
+To capture the requests and traffic passing between applications and back-end servers and manipulate these types of requests for testing purposes, we need to use Web Proxies.
+
+## What are web proxies?
+
+Web proxies are specialised tools set up between the web/mobile applications and backend servers. They are specialised tools through which we can act as the MITM attacker. Using web proxy we can analyse the request sent by the web/mobile application and response sent by the Backend servers. Furthermore, we can intercept a specific request to modify its data and see how the back-end server handles them, which is an essential part of any web penetration test. While other Network Sniffing applications, like Wireshark, operate by analyzing all local traffic to see what is passing through a network, Web Proxies mainly work with web ports such as, but not limited to, HTTP/80 and HTTPS/443.
